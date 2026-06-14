@@ -84,9 +84,9 @@
   .project-link { display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.8rem; font-weight: 500; color: var(--accent); text-decoration: none; transition: gap 0.2s; }
   .project-link:hover { gap: 0.65rem; }
   .project-link.disabled { color: var(--muted); cursor: default; pointer-events: none; }
-  .demo-creds { margin-top: 0.75rem; padding: 0.5rem 0.75rem; background: var(--faint); border: 1px solid var(--border); border-radius: 8px; font-size: 0.75rem; color: var(--muted); line-height: 1.5; }
+  .demo-creds { margin-top: 0.75rem; padding: 0.65rem 0.85rem; background: rgba(79,142,247,0.08); border: 1px solid rgba(79,142,247,0.25); border-radius: 8px; font-size: 0.85rem; color: var(--muted); line-height: 1.6; }
   .demo-creds strong { color: var(--text); font-weight: 600; }
-  .demo-creds code { font-family: Consolas, 'Liberation Mono', Menlo, monospace; background: rgba(255,255,255,0.07); padding: 0.1rem 0.4rem; border-radius: 4px; color: var(--accent); }
+  .demo-creds code { font-family: Consolas, 'Liberation Mono', Menlo, monospace; font-size: 0.85rem; background: rgba(255,255,255,0.08); padding: 0.15rem 0.45rem; border-radius: 4px; color: var(--accent); font-weight: 600; }
 
   /* Kaggle badge */
   .kaggle-badge { display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.72rem; font-weight: 600; padding: 0.25rem 0.6rem; border-radius: 4px; background: rgba(32,186,226,0.1); color: #20bae2; border: 1px solid rgba(32,186,226,0.25); margin-top: 0.5rem; }
@@ -223,21 +223,24 @@
         </div>
       </div>
 
-      <!-- DataBridge HIV -->
+      <!-- DataBridge Pro -->
       <div class="project-card">
-        <span class="project-tag">NGO · M&amp;E Platform</span>
-        <div class="project-title">DataBridge — HIV Program M&amp;E</div>
-        <p class="project-desc">Purpose-built monitoring & evaluation platform for an HIV prevention program funded by The Global Fund. Tracks 711+ active beneficiaries with a 93.1% data quality score, automated donor reporting, KPI dashboards, and a bilingual Arabic/English interface.</p>
-        <img src="https://aabdelghaffar650-cloud.github.io/portfolio/dashboard.png" alt="DataBridge HIV M&E Platform" class="project-img">
+        <span class="project-tag">AI Data Platform</span>
+        <div class="project-title">DataBridge Pro</div>
+        <p class="project-desc">AI-powered data management, M&amp;E, reporting, and analytics platform. Transforms raw Excel files into validated, structured data with Smart Import, Auto Data Mapper, a Data Quality Scoring Engine, KPI/indicator tracking, automated reporting, and a Gemini AI assistant — built for NGOs, M&amp;E teams, and data analysts. Bilingual Arabic/English interface.</p>
+        <img src="https://aabdelghaffar650-cloud.github.io/portfolio/dashboard.png" alt="DataBridge Pro Screenshot" class="project-img">
         <div class="project-stack">
           <span class="tag">Python</span>
           <span class="tag">Streamlit</span>
-          <span class="tag">Power BI</span>
-          <span class="tag">Global Fund</span>
+          <span class="tag">Gemini AI</span>
           <span class="tag">M&amp;E</span>
+          <span class="tag">ETL</span>
         </div>
         <div class="project-links">
-          <span class="project-link disabled">Private deployment</span>
+          <a href="https://databridge-pro-vurwpyzgktreathxcbg2bq.streamlit.app/" target="_blank" class="project-link">Live demo →</a>
+        </div>
+        <div class="demo-creds">
+          <strong>Try it:</strong> <code>demo</code> / <code>demo2026</code>
         </div>
       </div>
 
